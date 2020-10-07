@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Bai Jamjuree', sans-serif;
+}
+
+body {
+	font-size: 18px;
+}
+
+:root {
+	--cyan: hsl(171, 66%, 44%);
+	--light-blue: hsl(233, 100%, 69%);
+	--dark-gray: hsl(210, 10%, 33%);
+	--gray: hsl(201, 11%, 66%);
+}
