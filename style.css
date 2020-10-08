@@ -50,12 +50,13 @@ header img {
 	width: 100px;
 }
 
-header p {
-	margin: 1em 13em 2em;
+header p { 
+	margin: 1em auto 2em;
+	width: 650px;
 }
 
 .buttons {
-	width: 32%;
+	width: 343px;
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
@@ -96,7 +97,8 @@ header p {
 }
 
 .description p {
-	margin: 1em 10em 4em;
+	margin: 1em auto 4em;
+	width: 650px;
 }
 
 .showcase .content {
@@ -122,11 +124,16 @@ header p {
 /* access-clipboard */
 
 .access-clipboard p {
-	margin: 1em 10em 5em;
+	margin: 1em auto 5em;
+	width: 650px;
 }
 
-.access-clipboard img {
+.devices {
 	height: 68vh;
+}
+
+.devices img {
+	height: 100%;
 }
 
 
@@ -162,7 +169,8 @@ header p {
 }
 
 .clipboard p {
-	margin: 1em 11em 2em;
+	margin: 1em auto 2em;
+	width: 650px;
 }
 
 
@@ -221,9 +229,8 @@ footer h4 {
 	}
 
 	.container p {
-		margin-left: 0;
-		margin-right: 0;
 		padding: 0 1em;
+		width: auto;
 	}
 
 	.buttons {
@@ -266,6 +273,10 @@ footer h4 {
 
 
 	/* supercharge */
+
+	.supercharge {
+		margin-top: 1em;
+	}
 
 	.tools {
 		flex-direction: column;
