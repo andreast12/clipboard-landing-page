@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 	font-family: 'Bai Jamjuree', sans-serif;
 }
 
@@ -191,7 +192,7 @@ footer .content a {
 }
 
 footer h4 {
-	text-align: left;
+	text-align: center;
 	display: flex;
 	align-items: center;
 }
@@ -205,4 +206,122 @@ footer h4 {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+}
+
+
+
+/* media query */
+
+@media (max-width: 768px) {
+	/* global */
+
+	.container {
+		width: 90%;
+		max-width: 500px;
+	}
+
+	.container p {
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0 1em;
+	}
+
+	.buttons {
+		width: 100%;
+		padding: 0 1em;
+		flex-direction: column; 
+	}
+
+	.ios-btn {
+		margin-bottom: 1em;
+	}
+
+
+	/* showcase */
+
+	.showcase .content {
+		flex-direction: column;
+	}
+
+	.features {
+		padding: 0;
+	}
+
+	.features-col {
+		text-align: center;
+		margin-top: 2em;
+	}
+
+	.features-col h3 {
+		margin-bottom: .8em;
+	}
+
+
+	/* access-clipboard */
+
+	.access-clipboard img {
+		width: 100%;
+		height: auto;
+	}
+
+
+	/* supercharge */
+
+	.tools {
+		flex-direction: column;
+	}
+
+	.tools-col {
+		width: 100%;
+		margin-top: 3em;
+	}
+
+	.tools-col h3 {
+		margin: 2em 0 1em;
+	}
+
+
+	/* companies */
+
+	.companies .container {
+		flex-direction: column;
+	}
+
+	.company-logo:not(:first-child) {
+		margin-top: 3em;
+	}
+
+
+	/* footer */
+
+	footer .container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	footer .logo {
+		text-align: center;
+	}
+
+	.logo img {
+		width: 50%
+	}
+
+	footer .content {
+		grid-template-columns: 1fr;
+		margin: 2em 0;
+	}
+
+	footer .content a {
+		padding: .2em 0;
+
+	}
+
+	footer h4 {
+		display: block;
+	}
+
+	.soc-med {
+		width: 50%
+	}
 }
