@@ -18,4 +18,38 @@ body {
 .container {
 	width: 80%;
 	margin: auto;
+	text-align: center;
+}
+
+
+/* header */
+
+header img {
+	width: 100px;
+}
+
+header h1 {
+	color: var(--dark-gray);
+}
+
+header p {
+	color: var(--gray);
+	margin: 1em 13em 2em;
+}
+
+.ios-btn, .mac-btn {
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: .75em 2.2em;
+	color: #eaeaea;
+	border-radius: 20px;
+}
+
+.ios-btn {
+	background-color: var(--cyan);
+}
+
+.mac-btn {
+	background-color: var(--light-blue);
 }
