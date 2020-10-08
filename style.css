@@ -6,6 +6,7 @@
 
 body {
 	font-size: 18px;
+	line-height: 1.5;
 }
 
 :root {
@@ -52,4 +53,42 @@ header p {
 
 .mac-btn {
 	background-color: var(--light-blue);
+}
+
+
+/* showcase */
+
+.showcase {
+	margin: 5em 0;
+}
+
+.showcase h2 {
+	color: var(--dark-gray);
+}
+
+.showcase p {
+	color: var(--gray);
+}
+
+.description p {
+	margin: 1em 10em 4em;
+}
+
+.content {
+	display: flex;
+}
+
+.img-container img {
+	width: 100%;
+}
+
+.features {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding-left: 5em;
+}
+
+.features-col {
+	text-align: left;
 }
