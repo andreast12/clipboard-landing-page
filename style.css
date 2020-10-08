@@ -99,3 +99,15 @@ header p {
 .access-clipboard img {
 	height: 68vh;
 }
+
+
+/* supercharge */
+
+.tools {
+	display: flex;
+	justify-content: space-between;
+}
+
+.tools-col {
+	width: 32%;
+}
