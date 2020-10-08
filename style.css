@@ -103,6 +103,10 @@ header p {
 
 /* supercharge */
 
+.supercharge {
+	margin: 4em 0 8em;
+}
+
 .tools {
 	display: flex;
 	justify-content: space-between;
@@ -110,4 +114,18 @@ header p {
 
 .tools-col {
 	width: 32%;
+}
+
+
+/* companies */
+
+.companies .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid;
+}
+
+.companies img {
+	border: 1px solid;
 }
