@@ -7,13 +7,19 @@
 body {
 	font-size: 18px;
 	line-height: 1.5;
+	margin-top: 10vh;
 }
+
+
+/* global scope */
 
 :root {
 	--cyan: hsl(171, 66%, 44%);
 	--light-blue: hsl(233, 100%, 69%);
 	--dark-gray: hsl(210, 10%, 33%);
 	--gray: hsl(201, 11%, 66%);
+	--ios-hover: #2bcab2;
+	--mac-hover: #7988ff;
 }
 
 .container {
@@ -42,6 +48,13 @@ header p {
 	margin: 1em 13em 2em;
 }
 
+.buttons {
+	width: 32%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
 .ios-btn, .mac-btn {
 	border: none;
 	outline: none;
@@ -53,10 +66,20 @@ header p {
 
 .ios-btn {
 	background-color: var(--cyan);
+	box-shadow: 0 5px 10px hsla(171, 66%, 44%, .5);
+}
+
+.ios-btn:hover {
+	background-color: var(--ios-hover);
 }
 
 .mac-btn {
 	background-color: var(--light-blue);
+	box-shadow: 0 5px 10px hsla(233, 100%, 69%, .5);
+}
+
+.mac-btn:hover {
+	background-color: var(--mac-hover);
 }
 
 
@@ -134,4 +157,47 @@ header p {
 
 .clipboard p {
 	margin: 1em 11em 2em;
+}
+
+
+/* footer */
+
+footer .container {
+	display: flex;
+}
+
+.logo {
+	flex: 1;
+	text-align: left;
+}
+
+.logo img {
+	width: 30%;
+}
+
+footer .content {
+	flex: 5;
+	display: grid;
+	grid-template-columns: repeat(3, 180px);
+}
+
+footer .content a {
+	text-decoration: none;
+}
+
+footer h4 {
+	text-align: left;
+	display: flex;
+	align-items: center;
+}
+
+#contact-us, #press-kit {
+	grid-row: 2/3;
+}
+
+.soc-med {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 }
