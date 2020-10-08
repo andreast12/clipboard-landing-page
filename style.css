@@ -62,7 +62,7 @@ header p {
 	margin: 5em 0;
 }
 
-.showcase h2 {
+.showcase h2, h3 {
 	color: var(--dark-gray);
 }
 
@@ -91,4 +91,11 @@ header p {
 
 .features-col {
 	text-align: left;
+}
+
+
+/* access-clipboard */
+
+.access-clipboard p {
+	margin: 
 }
