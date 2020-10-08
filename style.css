@@ -22,6 +22,15 @@ body {
 	text-align: center;
 }
 
+h1, h2, h3, h4 {
+	color: var(--dark-gray);
+}
+
+p {
+	color: var(--gray);
+	line-height: 1.5;
+}
+
 
 /* header */
 
@@ -29,12 +38,7 @@ header img {
 	width: 100px;
 }
 
-header h1 {
-	color: var(--dark-gray);
-}
-
 header p {
-	color: var(--gray);
 	margin: 1em 13em 2em;
 }
 
@@ -60,14 +64,6 @@ header p {
 
 .showcase {
 	margin: 5em 0;
-}
-
-.showcase h2, h3 {
-	color: var(--dark-gray);
-}
-
-.showcase p {
-	color: var(--gray);
 }
 
 .description p {
@@ -97,5 +93,9 @@ header p {
 /* access-clipboard */
 
 .access-clipboard p {
-	margin: 
+	margin: 1em 10em 5em;
+}
+
+.access-clipboard img {
+	height: 68vh;
 }
