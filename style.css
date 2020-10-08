@@ -7,7 +7,6 @@
 body {
 	font-size: 18px;
 	line-height: 1.5;
-	margin-top: 10vh;
 }
 
 
@@ -39,6 +38,12 @@ p {
 
 
 /* header */
+
+header {
+	padding-top: 10vh;
+	background-image: url('images/bg-header-desktop.png');
+	background-repeat: no-repeat;
+}
 
 header img {
 	width: 100px;
