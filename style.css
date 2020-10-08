@@ -70,7 +70,7 @@ header p {
 	margin: 1em 10em 4em;
 }
 
-.content {
+.showcase .content {
 	display: flex;
 }
 
@@ -123,9 +123,15 @@ header p {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border: 1px solid;
 }
 
-.companies img {
-	border: 1px solid;
+
+/* clipboard */
+
+.clipboard {
+	margin: 8em 0 10em;
+}
+
+.clipboard p {
+	margin: 1em 11em 2em;
 }
