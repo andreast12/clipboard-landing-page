@@ -11,7 +11,9 @@ body {
 }
 
 
-/* global scope */
+/* =================
+	global scope
+================ */
 
 :root {
 	--cyan: hsl(171, 66%, 44%);
@@ -35,24 +37,6 @@ h1, h2, h3, h4 {
 p {
 	color: var(--gray);
 	line-height: 1.5;
-}
-
-
-/* header */
-
-header {
-	padding-top: 10vh;
-	background-image: url('images/bg-header-desktop.png');
-	background-repeat: no-repeat;
-}
-
-header img {
-	width: 100px;
-}
-
-header p { 
-	margin: 1em auto 2em;
-	width: 650px;
 }
 
 .buttons {
@@ -90,7 +74,30 @@ header p {
 }
 
 
-/* showcase */
+/* =============
+	header
+============ */
+
+header {
+	padding-top: 10vh;
+	background-image: url('images/bg-header-desktop.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+header img {
+	width: 100px;
+}
+
+header p { 
+	margin: 1em auto 2em;
+	width: 650px;
+}
+
+
+/* =================
+	showcase
+================ */
 
 .showcase {
 	margin: 5em 0;
@@ -121,7 +128,9 @@ header p {
 }
 
 
-/* access-clipboard */
+/* ====================
+	access-clipboard
+=================== */
 
 .access-clipboard p {
 	margin: 1em auto 5em;
@@ -138,7 +147,9 @@ header p {
 }
 
 
-/* supercharge */
+/* =================
+	supercharge
+================ */
 
 .supercharge {
 	margin: 4em 0 8em;
@@ -154,7 +165,9 @@ header p {
 }
 
 
-/* companies */
+/* =================
+	companies
+================ */
 
 .companies .container {
 	display: flex;
@@ -163,7 +176,9 @@ header p {
 }
 
 
-/* clipboard */
+/* =================
+	clipboard
+================ */
 
 .clipboard {
 	margin: 8em 0 10em;
@@ -175,7 +190,9 @@ header p {
 }
 
 
-/* footer */
+/* =============
+	footer
+============ */
 
 footer .container {
 	display: flex;
@@ -219,10 +236,14 @@ footer h4 {
 
 
 
-/* media query */
+/* =================
+	media query
+================ */
 
 @media (max-width: 768px) {
-	/* global */
+	/* =================
+		global scope
+	================ */
 
 	.container {
 		width: 90%;
@@ -236,6 +257,7 @@ footer h4 {
 
 	.buttons {
 		width: 100%;
+		max-width: 400px;
 		padding: 0 1em;
 		flex-direction: column; 
 	}
@@ -245,7 +267,9 @@ footer h4 {
 	}
 
 
-	/* showcase */
+	/* =================
+		showcase
+	================ */
 
 	.showcase .content {
 		flex-direction: column;
@@ -265,7 +289,9 @@ footer h4 {
 	}
 
 
-	/* access-clipboard */
+	/* ====================
+		access-clipboard
+	=================== */
 
 	.access-clipboard img {
 		width: 100%;
@@ -273,7 +299,9 @@ footer h4 {
 	}
 
 
-	/* supercharge */
+	/* =================
+		supercharge
+	================ */
 
 	.supercharge {
 		margin-top: 5em;
@@ -293,7 +321,9 @@ footer h4 {
 	}
 
 
-	/* companies */
+	/* =================
+		companies
+	================ */
 
 	.companies .container {
 		flex-direction: column;
@@ -304,14 +334,16 @@ footer h4 {
 	}
 
 
-	/* footer */
+	/* =============
+		footer
+	============ */
 
 	footer .container {
 		flex-direction: column;
 		align-items: center;
 	}
 
-	footer .logo {
+	.logo {
 		text-align: center;
 	}
 
