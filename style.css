@@ -232,6 +232,26 @@ footer h4 {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+	font-size: 2rem;
+}
+
+.soc-med i {
+	color: #495057;
+	transition: .3s;
+}
+
+.fa-facebook-square:hover {
+	color: #4867AA;
+}
+
+.fa-twitter:hover {
+	color: #2BA8E0;
+}
+
+.fa-instagram:hover {
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+	-webkit-background-clip: text;
+	color: transparent;
 }
 
 .attribution {
