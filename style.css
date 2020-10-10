@@ -234,6 +234,9 @@ footer h4 {
 	justify-content: space-around;
 }
 
+.attribution {
+	margin-top: 10vh;
+}
 
 
 /* =================
@@ -264,6 +267,15 @@ footer h4 {
 
 	.ios-btn {
 		margin-bottom: 1em;
+	}
+
+
+	/* =================
+		header
+	================ */
+
+	header {
+		padding-top: 10vmax;
 	}
 
 
@@ -367,5 +379,9 @@ footer h4 {
 
 	.soc-med {
 		width: 50%
+	}
+
+	.attribution {
+		margin-top: 10vmax;
 	}
 }
